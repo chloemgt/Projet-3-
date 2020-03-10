@@ -10,12 +10,39 @@ html,body {
 }
 .box1{
     background-color: #f2dfce;
-    height: 250px;
-    width: 250%;
+    height: 150px;
+    width: 150%;
 }
 .logo{
     height: none;
-    width: auto;
-    padding-left: 17%;
+    width: 10%;
+    padding-right: 10%;
 
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding-right: 30%;
+    font-family: cursive;
+    color:#58160b ;
+    font-size: 100%;
+}
+.box2{
+    padding: 10%;
+    background-color: #ffffff;
+}
+.box3{
+    padding: 10%;
+    background-color: #f2dfce;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #58160b;
+}
+.titre{
+    color: #58160b;
+    padding-left: center;
+    font-family: 'Pacifico', cursive;
+}
+.box4{
+    height: 50px;
+    width: auto;
 }
