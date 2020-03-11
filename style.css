@@ -32,7 +32,7 @@ html,body {
     background-color: #ffffff;
 }
 .box3{
-    padding: 10%;
+    padding: 5%;
     background-color: #f2dfce;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #58160b;
@@ -42,7 +42,61 @@ html,body {
     padding-left: center;
     font-family: 'Pacifico', cursive;
 }
+.presentation{
+    text-align: justify;
+}
 .box4{
-    height: 50px;
-    width: auto;
+    background-color: #f2dfce;
+   
+}
+.moi{
+    height: 400px;
+    width: 103%;
+}
+.box5{
+    padding: 5%;
+    background-color: #ffffff;
+}
+.competences{
+    height: 250px;
+    width: 100%;
+}
+.titre2{
+    color: #58160b;
+    padding-left: 15%;
+    font-family: 'Pacifico', cursive;
+}
+.sous-titre{
+    color: #58160b;
+    padding-left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box7{
+   padding: 5%; 
+}
+.progression{
+    height: 250px;
+    width: 100%;
+}
+.box8{
+    padding: 5%;
+    background-color: #F2DFCe;
+
+}
+.passions{
+    color: #58160b;
+    padding-left: 15%;
+    font-family: 'Pacifico', cursive;
+}
+.danse{
+    color: #a64320;
+    padding-left: 15%;
+    padding-right: center;
+    font-family: 'Pacifico', cursive;  
+}
+.danse2{
+    padding: 10%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a64320;  
 }
