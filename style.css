@@ -5,21 +5,22 @@ html,body {
     margin: 0%;
     padding: 0%
 }
-.wrapper{
-    display: grid;
+
+
+/* ------------------------- */
+
+section {
+    padding: 2em 1em;
 }
-.box1{
-    background-color: #f2dfce;
-    height: 150px;
-    width: 150%;
+
+
+#header {
+    background-color: #F2DFCe;
 }
 .logo{
-    height: none;
-    width: 10%;
-    padding-right: 10%;
-
+    width: 20%;
 }
-.menu{
+#menu{
     list-style: none;
     display: flex;
     padding-right: 30%;
@@ -27,76 +28,83 @@ html,body {
     color:#58160b ;
     font-size: 100%;
 }
-.box2{
-    padding: 10%;
+#intro{
     background-color: #ffffff;
 }
-.box3{
-    padding: 5%;
+.image{
+   
+    width: 100%;
+}
+.jepeux{
+    text-align: center;
+    font-family: cursive; 
+    color: #58160b; 
+}
+
+#unpeudemoi {
     background-color: #f2dfce;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #58160b;
 }
 .titre{
+    font-family: cursive;
+    text-align: center;
     color: #58160b;
-    padding-left: center;
-    font-family: 'Pacifico', cursive;
 }
-.presentation{
+.présentation {
     text-align: justify;
-}
-.box4{
-    background-color: #f2dfce;
-   
+    color: #58160b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .moi{
-    height: 400px;
-    width: 103%;
+   
+    width: 100%;
 }
-.box5{
-    padding: 5%;
+#competences{
     background-color: #ffffff;
 }
-.competences{
-    height: 250px;
+.skills{
     width: 100%;
 }
-.titre2{
-    color: #58160b;
-    padding-left: 15%;
-    font-family: 'Pacifico', cursive;
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: #58160b; 
 }
-.sous-titre{
-    color: #58160b;
-    padding-left: 20%;
+h3{
+    font-family: cursive;
+    text-align: center;
+    color: #a64320;     
+}
+h4{
+    font-family: cursive;
+    text-align: center;
+    color: #58160b;   
+}
+#loisirs{
+     background-color: #f2dfce;
+}
+p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.box7{
-   padding: 5%; 
-}
-.progression{
-    height: 250px;
-    width: 100%;
-}
-.box8{
-    padding: 5%;
-    background-color: #F2DFCe;
-
-}
-.passions{
-    color: #58160b;
-    padding-left: 15%;
-    font-family: 'Pacifico', cursive;
-}
-.danse{
     color: #a64320;
-    padding-left: 15%;
-    padding-right: center;
-    font-family: 'Pacifico', cursive;  
+    text-align: justify; 
 }
-.danse2{
-    padding: 10%;
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #a64320;  
+#mapageinfo{
+    background-color: #ffffff;
+}
+.carte{
+    width: 100%;
+}
+@media screen and (min-width: 940px) {
+
+
+    #intro {
+        background-color: #F2DFCe;
+        display: flex;
+        align-items: center;
+    }
+    #intro > div {
+        flex-grow: 1;
+    }
+    #competences > div {
+        flex-grow: 1;  
+    }
 }
