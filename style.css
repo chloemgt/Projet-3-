@@ -24,7 +24,7 @@ section {
     list-style: none;
     display: flex;
     padding-right: 30%;
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     color:#58160b ;
     font-size: 100%;
 }
@@ -45,7 +45,7 @@ section {
     background-color: #f2dfce;
 }
 .titre{
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     color: #58160b;
 }
@@ -65,22 +65,36 @@ section {
     width: 100%;
 }
 h1{
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     color: #58160b; 
 }
 h3{
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     color: #a64320;     
 }
 h4{
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     color: #58160b;   
 }
 #loisirs{
      background-color: #f2dfce;
+}
+.chausson{
+
+    width: 20%;
+    padding-left: 40%;
+}
+.pinceau{
+ 
+    width: 20%;
+    padding-left: 40%;
+}
+.communication{
+    width: 20%;
+    padding-left: 40%; 
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -93,14 +107,37 @@ p{
 .carte{
     width: 100%;
 }
+.ecole{
+    width: 100%;
+}
+#footer{
+    background-color: #F2DFCe;
+}
+.crédits{
+    padding-right: 30%;
+}
+
+a{
+    padding-left: 20%;
+    text-decoration: none;
+    color:#58160b;
+}
+
+a:hover{
+    color:#a64320;
+}
+
 @media screen and (min-width: 940px) {
 
-
-    #intro {
-        background-color: #F2DFCe;
-        display: flex;
-        align-items: center;
+    section{
+        display: grid;
+        grid-template: repeat(2,1fr);
     }
+    section:nth-child(even).section_content{
+        grid-column:2/-1;
+        
+        }
+    
     #intro > div {
         flex-grow: 1;
     }
