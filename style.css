@@ -79,6 +79,11 @@ h4{
     text-align: center;
     color: #58160b;   
 }
+h5{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #a64320;     
+}
 #loisirs{
      background-color: #f2dfce;
 }
@@ -126,8 +131,16 @@ a{
 a:hover{
     color:#a64320;
 }
+#footer{
+    list-style: none;
+    display: flex;  
+    font-family: cursive;
+    color:#a64320 ;
+    background-color: #ffffff;
 
-@media screen and (min-width: 940px) {
+    }
+
+@media screen and (max-width: 1280px) {
 
     section{
         display: grid;
@@ -139,7 +152,7 @@ a:hover{
         }
     
     #intro > div {
-        flex-grow: 1;
+        flex-grow: 1,2;
     }
     #competences > div {
         flex-grow: 1;  
