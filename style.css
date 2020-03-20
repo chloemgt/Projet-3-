@@ -6,6 +6,13 @@ html,body {
     padding: 0%
 }
 
+}
+
+.wrapper{
+
+  display: grid;
+
+}
 
 /* ------------------------- */
 
@@ -18,13 +25,13 @@ section {
     background-color: #F2DFCe;
 }
 .logo{
-    width: 20%;
+    width: 15%;
 }
 #menu{
     list-style: none;
     display: flex;
     padding-right: 30%;
-    font-family: 'Pacifico', cursive;
+    font-family: cursive;
     color:#58160b ;
     font-size: 100%;
 }
@@ -43,6 +50,7 @@ section {
 
 #unpeudemoi {
     background-color: #f2dfce;
+    
 }
 .titre{
     font-family: 'Pacifico', cursive;
@@ -54,8 +62,7 @@ section {
     color: #58160b;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.moi{
-   
+.un-peu-de-moi{
     width: 100%;
 }
 #competences{
@@ -92,7 +99,7 @@ h5{
     width: 20%;
     padding-left: 40%;
 }
-.pinceau{
+.crayon{
  
     width: 20%;
     padding-left: 40%;
@@ -143,21 +150,71 @@ a:hover{
 
     }
 
-@media screen and (max-width: 1280px) {
+ @media screen and (min-width: 940px) {
+   
+    #header{
+       padding-left: 30%;
+    }
+    .logo{
+        width: 8%;
+        padding-left: 27%;
+    }
+    .image{
+        width: 40%;
+        margin-left: 0%;
+    }
+    .jepeux{
+        margin-top: -10%;
+        margin-left: 50%;
+        font-size: 230%;
+       
+    }
+    section > #unpeudemoi{
+        background-size: large;
+    }
+    .un-peu-de-moi{
+        width: 20%;
+        margin-top: -10%;
+        margin-left: 60%;
+    }
+    .titre1{
+        margin-top: -20%;
+        margin-right: 45%;
+        font-size: 50%;
+        width: 50%;
+    }
 
-    section{
-        display: grid;
-        grid-template: repeat(2,1fr);
+    .titre{
+        margin-top: -10%;
+        margin-right: 45%;
+        font-size: 50%;
+        width: 50%;
+       
     }
-    section:nth-child(even).section_content{
-        grid-column:2/-1;
-        
-        }
     
-    #intro > div {
-        flex-grow: 1,2;
+    
+   
+    
+      
+    .skills{
+        width: 40%;
+        margin-left: 0%;
     }
-    #competences > div {
-        flex-grow: 1;  
+    .competences{
+        margin-top: -20%;
+        
+        margin-left: 45%;
+        font-size: 50%;
+        width: 50%;
     }
-}
+    .maitrise{
+        list-style: none;
+        display: flex;
+        padding-right: 30%;
+    }
+    
+    
+ }
+
+
+       
