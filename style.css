@@ -6,7 +6,7 @@ html,body {
     padding: 0%
 }
 
-}
+
 
 .wrapper{
 
@@ -47,19 +47,21 @@ section {
     font-family: cursive; 
     color: #58160b; 
 }
-
+.section_unpeudemoi{
+    background-color: #f2dfce;
+}
 #unpeudemoi {
     background-color: #f2dfce;
     
 }
-.titre{
+.titre1{
     font-family: 'Pacifico', cursive;
     text-align: center;
     color: #58160b;
 }
-.présentation {
+.texte {
     text-align: justify;
-    color: #58160b;
+    color: #a64320;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .un-peu-de-moi{
@@ -71,25 +73,23 @@ section {
 .skills{
     width: 100%;
 }
+
+
 h1{
     font-family: 'Pacifico', cursive;
     text-align: center;
     color: #58160b; 
 }
-h3{
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    color: #a64320;     
-}
 h4{
-    font-family: 'Pacifico', cursive;
+    font-family: cursive;
     text-align: center;
-    color: #58160b;   
+    color: #58160b;  
 }
+h3,
 h5{
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #a64320;     
+    color: #a64320;
 }
 #loisirs{
      background-color: #f2dfce;
@@ -115,10 +115,29 @@ p{
 }
 #mapageinfo{
     background-color: #ffffff;
+    padding-bottom: 1%;
 }
 .carte{
     width: 100%;
 }
+.information{
+    background-color: #58160b;
+    width: 100%;
+    height: 460pt;
+    border-radius: 5px;
+    
+}
+.information img{
+    width: 100%;
+    margin-left: -20%;
+}
+h6{
+    color: white;
+    font-size: 1em;
+    font-family: 'Pacifico' serif;
+    margin-left: 24%;
+}
+
 .ecole{
     width: 100%;
 }
@@ -152,67 +171,80 @@ a:hover{
 
  @media screen and (min-width: 940px) {
    
-    #header{
-       padding-left: 30%;
-    }
     .logo{
-        width: 8%;
-        padding-left: 27%;
+        width: 6%;
+        margin-left: 48%;
     }
-    .image{
-        width: 40%;
-        margin-left: 0%;
+    #menu{
+        list-style: none;
+        margin-left: 33%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #58160b;
+        font-size: 100%;
     }
-    .jepeux{
-        margin-top: -10%;
-        margin-left: 50%;
-        font-size: 230%;
-       
+    .introduction{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    section > #unpeudemoi{
-        background-size: large;
+    .introduction h3{
+        margin-top: 30%;
+        font-family: 'Pacifico', cursive;
+    }
+    .section_unpeudemoi{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_unpeudemoi h1{
+        font-size: 3em;
     }
     .un-peu-de-moi{
-        width: 20%;
-        margin-top: -10%;
-        margin-left: 60%;
+        width: 100%;
+        margin-top: -40%;
     }
-    .titre1{
-        margin-top: -20%;
-        margin-right: 45%;
-        font-size: 50%;
-        width: 50%;
+    #competences{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+    #mesloisirs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+    
+    }
+    #mesloisirs p{
+        width: 80%;
+    }
+    #mapageinfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .information{
+        margin-top: 10%;
+        height: 110pt;
+        width: 90%;
+        margin-left: 6%;
+    }
+    #imginformation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        filter: grayscale(0%);
+    }
+    #imginformation :hover{
+        filter: grayscale(20%); 
+    }
+    #imginformation{
+        height: 100%;
+    }
+    h6{
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Pacifico' serif;
+        margin-left: 35%;
 
-    .titre{
-        margin-top: -10%;
-        margin-right: 45%;
-        font-size: 50%;
-        width: 50%;
-       
     }
-    
-    
-   
-    
-      
-    .skills{
-        width: 40%;
-        margin-left: 0%;
+    #mecontacter{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
     }
-    .competences{
-        margin-top: -20%;
-        
-        margin-left: 45%;
-        font-size: 50%;
-        width: 50%;
-    }
-    .maitrise{
-        list-style: none;
-        display: flex;
-        padding-right: 30%;
-    }
-    
     
  }
 
